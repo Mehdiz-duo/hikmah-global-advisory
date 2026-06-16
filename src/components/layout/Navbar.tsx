@@ -18,13 +18,13 @@ export default function Navbar() {
   return (
     <nav className="fixed w-full z-50 bg-white/80 backdrop-blur-xl border-b border-gray-100/50 transition-all duration-300 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-28 items-center">
+        <div className="flex justify-between h-20 items-center">
           <div className="flex-shrink-0 flex items-center cursor-pointer">
             <Link to="/" className="flex items-center">
               <img 
                 src="/logo.png" 
                 alt="Hikmah Global Advisory Logo" 
-                className="h-24 w-auto object-contain py-1"
+                className="h-20 w-auto object-contain transform scale-[1.7] ml-6 origin-left"
               />
             </Link>
           </div>
@@ -59,7 +59,7 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {isOpen && (
-        <div className="md:hidden glass-card absolute w-full left-0 top-28 border-t border-gray-100">
+        <div className="md:hidden glass-card absolute w-full left-0 top-20 border-t border-gray-100">
           <div className="pt-2 pb-6 space-y-1 px-4">
             {links.map((link) => (
               <Link
