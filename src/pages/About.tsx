@@ -133,9 +133,31 @@ export default function About() {
               <p className="text-primary/70 font-light leading-relaxed mb-4">
                 Our leadership team combines decades of experience in finance, accounting, governance, risk management, procurement, donor-funded programming, and institutional development.
               </p>
-              <p className="text-primary/70 font-light leading-relaxed">
+              <p className="text-primary/70 font-light leading-relaxed mb-10">
                 We are committed to maintaining the highest standards of professionalism, ethics, and client service while helping organizations achieve measurable and lasting results.
               </p>
+              
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-8">
+                <div className="bg-light p-6 rounded-2xl border border-gray-100 flex items-center space-x-5 hover:border-accent/40 transition-colors">
+                  <div className="w-16 h-16 rounded-full bg-primary flex items-center justify-center text-accent font-serif font-bold text-xl flex-shrink-0">
+                    FM
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-serif font-bold text-primary">Feysal Mohamed</h4>
+                    <p className="text-accent text-sm font-semibold tracking-wide uppercase">Managing Director</p>
+                  </div>
+                </div>
+                
+                <div className="bg-light p-6 rounded-2xl border border-gray-100 flex items-center space-x-5 hover:border-accent/40 transition-colors">
+                  <div className="w-16 h-16 rounded-full bg-primary flex items-center justify-center text-accent font-serif font-bold text-xl flex-shrink-0">
+                    SN
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-serif font-bold text-primary">Samiro Abdiweli Nur</h4>
+                    <p className="text-accent text-sm font-semibold tracking-wide uppercase">Director</p>
+                  </div>
+                </div>
+              </div>
             </div>
             
             <div>
