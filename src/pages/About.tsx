@@ -125,11 +125,17 @@ export default function About() {
       <section className="py-32 bg-white relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-24">
-            <div>
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl h-[400px] mb-8">
-                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80" alt="Leadership" className="absolute inset-0 w-full h-full object-cover" />
+            {/* Leadership Section - Distinct Card */}
+            <div className="bg-light p-10 lg:p-12 rounded-3xl border border-gray-100 shadow-xl relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-64 h-64 bg-accent/5 blur-3xl rounded-full"></div>
+              <div className="relative rounded-2xl overflow-hidden shadow-md h-[300px] mb-10">
+                <img 
+                  src="https://images.unsplash.com/photo-1573164574572-cb89e39749b4?auto=format&fit=crop&q=80" 
+                  alt="Leadership" 
+                  className="absolute inset-0 w-full h-full object-cover" 
+                />
               </div>
-              <h2 className="text-3xl font-serif font-bold text-primary mb-6">Leadership</h2>
+              <h2 className="text-3xl font-serif font-bold text-primary mb-6">Our Leadership</h2>
               <p className="text-primary/70 font-light leading-relaxed mb-4">
                 Our leadership team combines decades of experience in finance, accounting, governance, risk management, procurement, donor-funded programming, and institutional development.
               </p>
@@ -152,9 +158,14 @@ export default function About() {
               </div>
             </div>
             
-            <div>
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl h-[400px] mb-8">
-                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80" alt="Experience" className="absolute inset-0 w-full h-full object-cover" />
+            {/* Experience Section */}
+            <div className="p-4 lg:p-8">
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl h-[400px] mb-10">
+                <img 
+                  src="https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?auto=format&fit=crop&q=80" 
+                  alt="Experience" 
+                  className="absolute inset-0 w-full h-full object-cover" 
+                />
               </div>
               <h2 className="text-3xl font-serif font-bold text-primary mb-6">Experience & Assignments</h2>
               <p className="text-primary/70 font-light leading-relaxed mb-4">

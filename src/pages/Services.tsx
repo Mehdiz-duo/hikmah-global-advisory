@@ -110,6 +110,27 @@ export default function Services() {
               </motion.div>
             ))}
           </div>
+          <div className="mt-24 relative rounded-2xl overflow-hidden shadow-2xl h-[500px]">
+            <img 
+              src="https://images.unsplash.com/photo-1556761175-5973dc0f32b7?auto=format&fit=crop&q=80" 
+              alt="Hikmah Professionals Consulting" 
+              className="absolute inset-0 w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/40 to-transparent"></div>
+            
+            <div className="absolute bottom-0 left-0 w-full p-10">
+              <div className="bg-white/90 backdrop-blur p-8 rounded-xl max-w-lg">
+                <h3 className="text-2xl font-serif font-bold text-primary mb-4">Partner with Hikmah</h3>
+                <p className="text-primary/70 font-light leading-relaxed mb-6">
+                  Our team is ready to provide the wisdom, technical expertise, and practical solutions your organization needs to thrive.
+                </p>
+                <Link to="/contact" className="inline-flex items-center space-x-2 text-accent font-semibold tracking-wide hover:text-accent/80 transition-colors">
+                  <span>CONTACT US TODAY</span>
+                  <ArrowRight className="w-5 h-5" />
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>
