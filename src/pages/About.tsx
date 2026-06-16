@@ -138,24 +138,16 @@ export default function About() {
               </p>
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-8">
-                <div className="bg-light p-6 rounded-2xl border border-gray-100 flex items-center space-x-5 hover:border-accent/40 transition-colors">
-                  <div className="w-16 h-16 rounded-full bg-primary flex items-center justify-center text-accent font-serif font-bold text-xl flex-shrink-0">
-                    FM
-                  </div>
-                  <div>
-                    <h4 className="text-lg font-serif font-bold text-primary">Feysal Mohamed</h4>
-                    <p className="text-accent text-sm font-semibold tracking-wide uppercase">Managing Director</p>
-                  </div>
+                <div className="bg-white p-8 border-l-4 border-accent shadow-sm hover:shadow-xl transition-shadow border-t border-r border-b border-gray-100">
+                  <p className="text-xs font-bold text-primary/50 uppercase tracking-[0.2em] mb-2">Managing Director</p>
+                  <h4 className="text-2xl font-serif font-bold text-primary mb-4">Feysal Mohamed</h4>
+                  <div className="w-12 h-[2px] bg-accent/30"></div>
                 </div>
                 
-                <div className="bg-light p-6 rounded-2xl border border-gray-100 flex items-center space-x-5 hover:border-accent/40 transition-colors">
-                  <div className="w-16 h-16 rounded-full bg-primary flex items-center justify-center text-accent font-serif font-bold text-xl flex-shrink-0">
-                    SN
-                  </div>
-                  <div>
-                    <h4 className="text-lg font-serif font-bold text-primary">Samiro Abdiweli Nur</h4>
-                    <p className="text-accent text-sm font-semibold tracking-wide uppercase">Director</p>
-                  </div>
+                <div className="bg-white p-8 border-l-4 border-accent shadow-sm hover:shadow-xl transition-shadow border-t border-r border-b border-gray-100">
+                  <p className="text-xs font-bold text-primary/50 uppercase tracking-[0.2em] mb-2">Director</p>
+                  <h4 className="text-2xl font-serif font-bold text-primary mb-4">Samiro Abdiweli Nur</h4>
+                  <div className="w-12 h-[2px] bg-accent/30"></div>
                 </div>
               </div>
             </div>
