@@ -59,7 +59,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-bold text-xl text-primary mb-2">Direct Email</h3>
-                    <a href="mailto:info@hikmahglobaladvisory.com" className="text-primary/70 font-light hover:text-accent transition-colors">info@hikmahglobaladvisory.com</a>
+                    <a href="mailto:admin@hikmahglobaladvisory.com" className="text-primary/70 font-light hover:text-accent transition-colors">admin@hikmahglobaladvisory.com</a>
                   </div>
                 </div>
                 

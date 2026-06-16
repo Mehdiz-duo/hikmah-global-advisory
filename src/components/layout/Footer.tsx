@@ -59,8 +59,8 @@ export default function Footer() {
                 <div className="p-2 bg-white/5 rounded-lg mr-4 group-hover:bg-accent/20 transition-colors">
                   <Mail className="h-5 w-5 text-accent" />
                 </div>
-                <a href="mailto:info@hikmahglobaladvisory.com" className="text-light/70 hover:text-white transition-colors text-sm font-medium">
-                  info@hikmahglobaladvisory.com
+                <a href="mailto:admin@hikmahglobaladvisory.com" className="text-light/70 hover:text-white transition-colors text-sm font-medium">
+                  admin@hikmahglobaladvisory.com
                 </a>
               </li>
               <li className="flex items-center group">
