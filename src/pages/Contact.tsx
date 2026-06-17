@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Mail, MapPin, Globe } from 'lucide-react';
+import { Mail, MapPin, Globe, Phone } from 'lucide-react';
 
 export default function Contact() {
   return (
@@ -60,6 +60,16 @@ export default function Contact() {
                   <div>
                     <h3 className="font-bold text-xl text-primary mb-2">Direct Email</h3>
                     <a href="mailto:admin@hikmahglobaladvisory.com" className="text-primary/70 font-light hover:text-accent transition-colors">admin@hikmahglobaladvisory.com</a>
+                  </div>
+                </div>
+                
+                <div className="flex items-start group">
+                  <div className="bg-light p-4 rounded-xl text-accent mr-6 border border-gray-100 group-hover:bg-accent group-hover:text-white transition-all duration-300">
+                    <Phone className="h-6 w-6" />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-xl text-primary mb-2">Phone</h3>
+                    <a href="tel:+252613900335" className="text-primary/70 font-light hover:text-accent transition-colors">+252 61 390 0335</a>
                   </div>
                 </div>
                 
