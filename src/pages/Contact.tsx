@@ -1,9 +1,15 @@
 import { motion } from 'framer-motion';
 import { Mail, MapPin, Globe, Phone } from 'lucide-react';
+import Seo from '../components/Seo';
 
 export default function Contact() {
   return (
     <div className="flex flex-col bg-light min-h-screen relative">
+      <Seo
+        title="Contact Us"
+        description="Get in touch with Hikmah Global Advisory LLP in Kismayo, Somalia. Email admin@hikmahglobaladvisory.com or call +252 61 390 0335 to start the conversation."
+        path="/contact"
+      />
       <div className="fixed inset-0 pointer-events-none bg-noise z-50"></div>
 
       <section className="bg-primary pt-40 pb-28 relative overflow-hidden">

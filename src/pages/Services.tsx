@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { Calculator, BarChart3, ShieldAlert, Users2, GraduationCap, Building, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import Seo from '../components/Seo';
 export default function Services() {
   const services = [
     {
@@ -67,6 +68,11 @@ export default function Services() {
 
   return (
     <div className="flex flex-col bg-light min-h-screen relative">
+      <Seo
+        title="Our Services"
+        description="Audit & assurance, accounting, tax advisory, risk & governance, management consulting, and development advisory services from Hikmah Global Advisory LLP."
+        path="/services"
+      />
       <div className="fixed inset-0 pointer-events-none bg-noise z-50"></div>
 
       <section className="bg-primary pt-40 pb-28 relative overflow-hidden">

@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { Heart, Landmark, Briefcase, GraduationCap, Building2, Globe2, Activity, Stethoscope } from 'lucide-react';
+import Seo from '../components/Seo';
 
 export default function Industries() {
   const industries = [
@@ -15,6 +16,11 @@ export default function Industries() {
 
   return (
     <div className="flex flex-col bg-light min-h-screen relative">
+      <Seo
+        title="Industries We Serve"
+        description="Hikmah Global Advisory LLP serves government, development and humanitarian organizations, financial services, education, health, agriculture, and private enterprises across East Africa."
+        path="/industries"
+      />
       <div className="fixed inset-0 pointer-events-none bg-noise z-50"></div>
 
       <section className="bg-primary pt-40 pb-28 relative overflow-hidden">

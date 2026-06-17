@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { Target, Lightbulb, Shield, Briefcase, Users, Award, CheckCircle2 } from 'lucide-react';
+import Seo from '../components/Seo';
 
 export default function About() {
   const values = [
@@ -12,6 +13,11 @@ export default function About() {
 
   return (
     <div className="flex flex-col bg-light min-h-screen relative">
+      <Seo
+        title="About Us"
+        description="Learn about Hikmah Global Advisory LLP, an independent accounting and advisory firm built on integrity, excellence, and independence, partnering with organizations across East Africa."
+        path="/about"
+      />
       <div className="fixed inset-0 pointer-events-none bg-noise z-50"></div>
 
       {/* Page Header */}

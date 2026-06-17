@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { BookOpen, FileText, TrendingUp, Lightbulb } from 'lucide-react';
+import Seo from '../components/Seo';
 
 export default function Insights() {
   const articles = [
@@ -11,6 +12,11 @@ export default function Insights() {
 
   return (
     <div className="flex flex-col bg-light min-h-screen relative">
+      <Seo
+        title="Insights & Resources"
+        description="Expert insights on donor compliance, financial management for NGOs, tax regulations, and risk management frameworks across East Africa from Hikmah Global Advisory LLP."
+        path="/insights"
+      />
       <div className="fixed inset-0 pointer-events-none bg-noise z-50"></div>
 
       <section className="bg-primary pt-40 pb-28 relative overflow-hidden">

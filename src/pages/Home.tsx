@@ -1,10 +1,16 @@
 import { ArrowRight, ArrowUpRight, ShieldCheck, LineChart } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import Seo from '../components/Seo';
 
 export default function Home() {
   return (
     <div className="flex flex-col bg-light min-h-screen relative">
+      <Seo
+        title="Accounting, Audit & Consulting"
+        description="Hikmah Global Advisory LLP is an independent accounting, audit, consulting, and advisory firm helping organizations strengthen governance and improve performance across East Africa."
+        path="/"
+      />
       <div className="fixed inset-0 pointer-events-none bg-noise z-50"></div>
 
       {/* Hero Section */}
