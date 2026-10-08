@@ -148,21 +148,7 @@ export default function About() {
               <p className="text-primary/70 font-light leading-relaxed mb-10">
                 We are committed to maintaining the highest standards of professionalism, ethics, and client service while helping organizations achieve measurable and lasting results.
               </p>
-              
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-8">
-                <div className="bg-white p-8 border-l-4 border-accent shadow-sm hover:shadow-xl transition-shadow border-t border-r border-b border-gray-100">
-                  <p className="text-xs font-bold text-primary/50 uppercase tracking-[0.2em] mb-2">Managing Director</p>
-                  <h4 className="text-2xl font-serif font-bold text-primary mb-4">Feysal Mohamed</h4>
-                  <div className="w-12 h-[2px] bg-accent/30"></div>
-                </div>
-                
-                <div className="bg-white p-8 border-l-4 border-accent shadow-sm hover:shadow-xl transition-shadow border-t border-r border-b border-gray-100">
-                  <p className="text-xs font-bold text-primary/50 uppercase tracking-[0.2em] mb-2">Director</p>
-                  <h4 className="text-2xl font-serif font-bold text-primary mb-4">Samiro Abdiweli Nur</h4>
-                  <div className="w-12 h-[2px] bg-accent/30"></div>
-                </div>
-              </div>
-            </div>
+    
             
             {/* Experience Section */}
             <div className="p-4 lg:p-8">
