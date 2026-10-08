@@ -52,12 +52,20 @@ export default function Contact() {
                   <div className="bg-light p-4 rounded-xl text-accent mr-6 border border-gray-100 group-hover:bg-accent group-hover:text-white transition-all duration-300">
                     <MapPin className="h-6 w-6" />
                   </div>
-                  <div>
+                <div>
                     <h3 className="font-bold text-xl text-primary mb-2">Head Office</h3>
-                    <p className="text-primary/70 font-light">Kismayo, Somalia</p>
-                    <p className="text-accent text-sm mt-2 font-semibold uppercase tracking-wider">Regional Coverage: East Africa & Horn of Africa</p>
+                    <p className="text-primary/70 font-light">585 Queen St S, Kitchener, ON N2G 4S4, Canada</p>
+                    <p className="text-accent text-sm mt-2 font-semibold uppercase tracking-wider">Head Office</p>
                   </div>
                 </div>
+                  
+                  <div>
+                    <h3 className="font-bold text-xl text-primary mb-2">East Africa Office</h3>
+                    <p className="text-primary/70 font-light">Buulo Hubey, Mogadishu, Banadir, Somalia</p>
+                    <p className="text-accent text-sm mt-2 font-semibold uppercase tracking-wider">East Africa Regional Office</p>
+                  </div>
+                </div>
+
                 
                 <div className="flex items-start group">
                   <div className="bg-light p-4 rounded-xl text-accent mr-6 border border-gray-100 group-hover:bg-accent group-hover:text-white transition-all duration-300">
