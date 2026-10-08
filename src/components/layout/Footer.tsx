@@ -51,8 +51,13 @@ export default function Footer() {
                 </div>
                 <span className="text-light/70 text-sm leading-relaxed mt-1">
                   <strong className="text-white block mb-1">Head Office:</strong>
-                  Kismayo, Somalia<br />
-                  <span className="opacity-75">Regional Coverage: East Africa & Horn of Africa</span>
+                  585 Queen St S, Kitchener, ON N2G 4S4, Canadabr />
+                  <span className="opacity-75">Main Offices<span>
+                </span>
+                   <span className="text-light/70 text-sm leading-relaxed mt-1">
+                  <strong className="text-white block mb-1">Regional Office:</strong>
+                  Buulo Hubey, Mogadishu, Banadir, Somalia. />
+                  <span className="opacity-75">East Africa Regional Office</span>
                 </span>
               </li>
               <li className="flex items-center group">
